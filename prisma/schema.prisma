@@ -59,6 +59,8 @@ model DemoSession {
   id         String    @id
   createdAt  DateTime  @default(now())
   lastSeenAt DateTime  @default(now())
+  /// 日付の基準日（日本時間）。日付が変わってから開くと、この作業スペースの日付をずれた日数分だけ進める
+  anchorDate DateTime  @default(now()) @db.Date
   requests   Request[]
 
   @@index([lastSeenAt])
