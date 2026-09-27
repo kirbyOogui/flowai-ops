@@ -4,6 +4,9 @@
 
 架空の企業「NEXORA株式会社」の社内ツールという設定のデモです。ログインは不要で、URL を開けばすぐに試せます。
 
+- デモ: https://flowai-ops.vercel.app
+- Gmail・Slack・Webフォームと実際に連携する本物版: https://flowai-ops-live.vercel.app （リポジトリ: https://github.com/kirbyOogui/flowai-ops-live ）
+
 > **DEMO MODE について**
 > Gmail・Slack には接続していません。依頼の**受信**と返信の**送信**はシミュレーションです。
 > 一方で、**AI による分類・担当者の決定・期限の抽出・返信案の作成、および仕事の登録・状態管理は実際に動作します**（OpenAI API を呼び出し、結果を PostgreSQL に保存します）。
