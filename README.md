@@ -4,7 +4,7 @@
 
 架空の企業「NEXORA株式会社」の社内ツールという設定のデモです。ログインは不要で、URL を開けばすぐに試せます。
 
-- デモ: https://flowai-ops.vercel.app
+- デモ: https://flowai-ops-demo.vercel.app
 - Gmail・Slack・Webフォームと実際に連携する本物版: https://flowai-ops-live.vercel.app （リポジトリ: https://github.com/kirbyOogui/flowai-ops-live ）
 
 > **DEMO MODE について**
